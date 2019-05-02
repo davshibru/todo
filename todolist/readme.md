@@ -5,39 +5,39 @@
 
 * Adware
 
-this virus that shows advertising to the user without breaking it, thereby receiving money from advertising
+  this virus that shows advertising to the user without breaking it, thereby receiving money from advertising
 
 * Attack kit
 
-This is a toolkit for creating your own virus using special tools from the set.
+  This is a toolkit for creating your own virus using special tools from the set.
 
 * Auto-rooter
 
-this tool with the help of which you can control a computer that was taken by an autorooter
+  this tool with the help of which you can control a computer that was taken by an autorooter
 
 * Downloaders
 
-This is a short code that after downloading to a computer can download larger programs or viruses.
+tThis is a short code that after downloading to a computer can download larger programs or viruses.
 
 * Drive-by-Download
 
-it is a virus that attacks web site visitors who use unprotected browsers
+  it is a virus that attacks web site visitors who use unprotected browsers
 
 * Exploits
 
-it is a type of virus program or a piece of code that is looking for vulnerabilities and who can use them
+  it is a type of virus program or a piece of code that is looking for vulnerabilities and who can use them
 
 * Flooders (DoS client)
 
-this is a huge amount of generated data that is sent to any server in order to cause an error in it
+  this is a huge amount of generated data that is sent to any server in order to cause an error in it
 
 * Keyloggers
 
-it is a program that is able to track user keystrokes and send this data to the creator of the program
+  it is a program that is able to track user keystrokes and send this data to the creator of the program
 
 * Logic bomb
 
-This is a code that will not act until a specific action is taken by the user.
+  this is a code that will not act until a specific action is taken by the user.
 
 * Macro virus
 
@@ -45,35 +45,35 @@ this is a type of virus that, when opening an infected document, runs and infect
 
 * Mobile code
 
-This is a program that sends itself to different platforms and performs the same actions independently of it.
+this is a program that sends itself to different platforms and performs the same actions independently of it.
 
 * Rootkit
 
-This is a set of software tools that allows hackers to obtain user data or control the victim's computer.
+  this is a set of software tools that allows hackers to obtain user data or control the victim's computer.
 
 * Spammer programs
 
-This is a program that sends a predetermined text to everyone else through e-mail.
+  this is a program that sends a predetermined text to everyone else through e-mail.
 
 * Spyware
 
-This is a software that, when come on a computer, begins to collect screen, network, keyboard data, etc.
+  this is a software that, when come on a computer, begins to collect screen, network, keyboard data, etc.
 
 * Trojan horse
 
-this is a program that keeps the virus and because it is hard to see in the program for antiviruses
+  this is a program that keeps the virus and because it is hard to see in the program for antiviruses
 
 * Virus
 
-it is a program that tries to infect other computers or programs
+  it is a program that tries to infect other computers or programs
 
 * Worm
 
-It is a program that exploits system vulnerabilities and also distributes itself by creating its own copy and does it all automatically.
+  it is a program that exploits system vulnerabilities and also distributes itself by creating its own copy and does it all automatically.
 
 * Zombie, Bot
 
-This is a program that makes of native machines a army with the help of which you can attack various services and servers.
+  this is a program that makes of native machines a army with the help of which you can attack various services and servers.
 
 ## Part 2: Malware Analyses
 
