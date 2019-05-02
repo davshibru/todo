@@ -1,126 +1,85 @@
-`<824>, <Shibru> <David>`
+`<825>, <Kasymov> <Nurali>`
 # Final Exam Report
 
 ## Part 1: Malware Types, Brief Descriptions, Notable Representatives
 
 * Adware
-
-  this virus that shows advertising to the user without breaking it, thereby receiving money from advertising
+program is designed to display ads on your computer.
 
 * Attack kit
-
-  This is a toolkit for creating your own virus using special tools from the set.
+a set of tools for creating viruses
 
 * Auto-rooter
-
-  this tool with the help of which you can control a computer that was taken by an autorooter
+tools that allow you to attack the machine remotely
 
 * Downloaders
-
-tThis is a short code that after downloading to a computer can download larger programs or viruses.
+ this is a small piece of code that gets on the computer downloads the software against the user's wishes
 
 * Drive-by-Download
-
-  it is a virus that attacks web site visitors who use unprotected browsers
+Drive-by downloads malware is presented in the form of a Trojan, the virus makes itself felt when the user enters the site infected by hackers
 
 * Exploits
-
-  it is a type of virus program or a piece of code that is looking for vulnerabilities and who can use them
+an exploit is a type of viral program that allows you to take advantage of the vulnerability in for example your browser and the remote to make viral code
 
 * Flooders (DoS client)
-
-  this is a huge amount of generated data that is sent to any server in order to cause an error in it
+Flooders is a stream of meaningless messages that is found on chat rooms, forums and social networks.
 
 * Keyloggers
-
-  it is a program that is able to track user keystrokes and send this data to the creator of the program
+ tool allows you to record all the actions performed on the keyboard
 
 * Logic bomb
-
-  this is a code that will not act until a specific action is taken by the user.
+this is the code that will not be valid until a certain action occurs
 
 * Macro virus
-
-this is a type of virus that, when opening an infected document, runs and infects other documents similar to the infected one.
+the type of embedded virus that runs when you view or edit a document
 
 * Mobile code
-
-this is a program that sends itself to different platforms and performs the same actions independently of it.
+ malicious code that when it enters the computer downloads unnecessary
 
 * Rootkit
-
-  this is a set of software tools that allows hackers to obtain user data or control the victim's computer.
+is a program that allows an attacker to gain access to your device without your knowledge
 
 * Spammer programs
-
-  this is a program that sends a predetermined text to everyone else through e-mail.
+ Used to send large volumes of unwanted e-mail. 
 
 * Spyware
-
-  this is a software that, when come on a computer, begins to collect screen, network, keyboard data, etc.
+Spyware is a spyware program to collect information about your computer without your knowledge
 
 * Trojan horse
-
-  this is a program that keeps the virus and because it is hard to see in the program for antiviruses
+ a useful program in which is hidden a virus that bypasses antivirus
 
 * Virus
-
-  it is a program that tries to infect other computers or programs
+ the program that is activated when you run the infected file and begins to infect other files for further distribution
 
 * Worm
-
-  it is a program that exploits system vulnerabilities and also distributes itself by creating its own copy and does it all automatically.
+a program that creates its own kind and works no matter what it does
 
 * Zombie, Bot
-
-  this is a program that makes of native machines a army with the help of which you can attack various services and servers.
+a program that infects a computer and then uses that computer to attack other computers
 
 ## Part 2: Malware Analyses
 
 * What is the name of the malware?
-
-  Stuxnet
-
+Mydoom
 * What is the type of the malware?
-
-  Worm
-
+Multi-vector worm
 * What was the language used to create the malware?
-
-  Assembler, С and С++.
+С++
 
 * What Windows-specific APIs were used to allow the malware to function (at least 7)?
-
-  1)Stuxnet extracts the MrxNet.sys resource from the flash drive via export  
-    2)MrxNet.sys driver is registered as a service, creating an entry in the registry  
-    3)Driver scans filesystem driver objects  
-    4)intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)  
-    5)The driver is registered in the file system callback registration routine  
-    6)Driver cling to newly created file system objects  
-   7)Driver hides files used by Stuxnet for distribution via removable disk  
+basically mydoom spread to computers in which there was OC Windows
 
 * What Windows-specific vulnerabilities were used to allow the malware to function?
-
-  The stuxnet virus exploits 4 windows vulnerabilities: zero day, CVE 2010-2658, BID 41732 and BID 31874
-
+-
 * Were any other software APIs or vulnerabilities exploited by the tool?
-
-  -
-
+-
 * How can one protect the system against this particular malware (describe multiple approaches)?
-
-  To remove the stuxnet virus, you can use specially created programs to remove this SpyHunter virus or BitDefender Stuxnet Removal Tool.
+download Security Stronghold utility that is designed to remove Mydoom. In manual it is possible to remove: to delete files WNSPOO~1.EXE
+shimgapi.dll, after delete the folder no information, then delete the keys Key: CLSID\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\InProcServer32
+Value: (Default)
+Data: %system%\shimgapi.dll and finally to Reset browsers
 
 * What general conclusions can we make after studying the malware?
-
-  To protect against the virus, you cannot use flash drives that were in unknown places and if you do regular computer checks with an antivirus
-
+in the course of viewing this worm, we learned that it was transmitted through e-mails and in General caused damage in the amount of $ 38.5 billion
 Outline the functionality of the malware and the basic steps the tool was doing to abuse the system.
-
-    1)Driver Entry  
-    2)Hooking File Systems  
-    3)Driver Notification Routine  
-    4)Attaching Device  
-    5)File System Control  
-    6)Directory Control  
-    7)File Checking  
+Mydoom was distributed via Bounce Message. These are the "Non Delivery Notification" notifications that the mail server generates if the message cannot be delivered. As soon as the user opened this notification, the computer was infected. After the worm sent itself to all contacts found.
