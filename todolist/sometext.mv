@@ -74,3 +74,48 @@ It is a program that exploits system vulnerabilities and also distributes itself
 * Zombie, Bot
 
 This is a program that makes of native machines a army with the help of which you can attack various services and servers.
+
+## Part 2: Malware Analyses
+
+* What is the name of the malware?
+
+  Stuxnet
+
+* What is the type of the malware?
+
+  Worm
+
+* What was the language used to create the malware?
+
+  Assembler, С and С++.
+
+* What Windows-specific APIs were used to allow the malware to function (at least 7)?
+
+  Stuxnet extracts the MrxNet.sys resource from the flash drive via export
+  MrxNet.sys driver is registered as a service, creating an entry in the registry
+  Driver scans filesystem driver objects
+  intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)
+  The driver is registered in the file system callback registration routine.
+  Driver cling to newly created file system objects
+  Driver hides files used by Stuxnet for distribution via removable disk
+
+* What Windows-specific vulnerabilities were used to allow the malware to function?
+
+  The stuxnet virus exploits 4 windows vulnerabilities: zero day, CVE 2010-2658, BID 41732 and BID 31874
+
+* Were any other software APIs or vulnerabilities exploited by the tool?
+
+  -
+
+* How can one protect the system against this particular malware (describe multiple approaches)?
+
+  To remove the stuxnet virus, you can use specially created programs to remove this SpyHunter virus or BitDefender Stuxnet Removal Tool.
+
+* What general conclusions can we make after studying the malware?
+
+  To protect against the virus, you cannot use flash drives that were in unknown places and if you do regular computer checks with an antivirus
+
+Outline the functionality of the malware and the basic steps the tool was doing to abuse the system.
+
+
+  
