@@ -91,13 +91,13 @@ This is a program that makes of native machines a army with the help of which yo
 
 * What Windows-specific APIs were used to allow the malware to function (at least 7)?
 
-  Stuxnet extracts the MrxNet.sys resource from the flash drive via export
-  MrxNet.sys driver is registered as a service, creating an entry in the registry
-  Driver scans filesystem driver objects
-  intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)
-  The driver is registered in the file system callback registration routine.
-  Driver cling to newly created file system objects
-  Driver hides files used by Stuxnet for distribution via removable disk
+  1)Stuxnet extracts the MrxNet.sys resource from the flash drive via export
+  2)MrxNet.sys driver is registered as a service, creating an entry in the registry
+  3)Driver scans filesystem driver objects
+  4)intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)
+  5)The driver is registered in the file system callback registration routine.
+  6)Driver cling to newly created file system objects
+  7)Driver hides files used by Stuxnet for distribution via removable disk
 
 * What Windows-specific vulnerabilities were used to allow the malware to function?
 
@@ -117,5 +117,10 @@ This is a program that makes of native machines a army with the help of which yo
 
 Outline the functionality of the malware and the basic steps the tool was doing to abuse the system.
 
-
-  
+  1)Driver Entry
+  2)Hooking File Systems
+  3)Driver Notification Routine
+  4)Attaching Device
+  5)File System Control
+  6)Directory Control
+  7)File Checking
