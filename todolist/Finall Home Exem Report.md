@@ -117,10 +117,10 @@ this is a program that sends itself to different platforms and performs the same
 
 Outline the functionality of the malware and the basic steps the tool was doing to abuse the system.
 
-  1)Driver Entry  
-  2)Hooking File Systems  
-  3)Driver Notification Routine  
-  4)Attaching Device  
-  5)File System Control  
-  6)Directory Control  
-  7)File Checking  
+    1)Driver Entry  
+    2)Hooking File Systems  
+    3)Driver Notification Routine  
+    4)Attaching Device  
+    5)File System Control  
+    6)Directory Control  
+    7)File Checking  
