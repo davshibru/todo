@@ -25,24 +25,40 @@ it is a virus that attacks web site visitors who use unprotected browsers
 
 * Exploits
 
-
 it is a type of virus program or a piece of code that is looking for vulnerabilities and who can use them
 
 * Flooders (DoS client)
 
+this is a huge amount of generated data that is sent to any server in order to cause an error in it
+
 * Keyloggers
+
+it is a program that is able to track user keystrokes and send this data to the creator of the program
 
 * Logic bomb
 
+This is a code that will not act until a specific action is taken by the user.
+
 * Macro virus
+
+this is a type of virus that, when opening an infected document, runs and infects other documents similar to the infected one.
 
 * Mobile code
 
+
+
 * Rootkit
+
+This is a set of software tools that allows hackers to obtain user data or control the victim's computer.
 
 * Spammer programs
 
+
+This is a program that sends a predetermined text to everyone else through e-mail.
+
 * Spyware
+
+This is a software that, when come on a computer, begins to collect screen, network, keyboard data, etc.
 
 * Trojan horse
 
