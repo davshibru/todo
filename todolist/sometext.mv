@@ -45,6 +45,9 @@ this is a type of virus that, when opening an infected document, runs and infect
 
 * Mobile code
 
+|
+||
+|
 
 
 * Rootkit
@@ -52,7 +55,6 @@ this is a type of virus that, when opening an infected document, runs and infect
 This is a set of software tools that allows hackers to obtain user data or control the victim's computer.
 
 * Spammer programs
-
 
 This is a program that sends a predetermined text to everyone else through e-mail.
 
@@ -62,7 +64,11 @@ This is a software that, when come on a computer, begins to collect screen, netw
 
 * Trojan horse
 
+this is a program that keeps the virus and because it is hard to see in the program for antiviruses
+
 * Virus
+
+it is a program that tries to infect other computers or programs
 
 * Worm
 
