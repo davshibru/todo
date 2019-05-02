@@ -91,13 +91,13 @@ this is a program that sends itself to different platforms and performs the same
 
 * What Windows-specific APIs were used to allow the malware to function (at least 7)?
 
-  1)Stuxnet extracts the MrxNet.sys resource from the flash drive via export
-  2)MrxNet.sys driver is registered as a service, creating an entry in the registry
-  3)Driver scans filesystem driver objects
-  4)intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)
-  5)The driver is registered in the file system callback registration routine.
-  6)Driver cling to newly created file system objects
-  7)Driver hides files used by Stuxnet for distribution via removable disk
+  1)Stuxnet extracts the MrxNet.sys resource from the flash drive via export  
+    2)MrxNet.sys driver is registered as a service, creating an entry in the registry  
+    3)Driver scans filesystem driver objects  
+    4)intercept IRP requests (write, read, to NTFS, FAT devices, or CD-ROM devices)  
+    5)The driver is registered in the file system callback registration routine  
+    6)Driver cling to newly created file system objects  
+   7)Driver hides files used by Stuxnet for distribution via removable disk  
 
 * What Windows-specific vulnerabilities were used to allow the malware to function?
 
